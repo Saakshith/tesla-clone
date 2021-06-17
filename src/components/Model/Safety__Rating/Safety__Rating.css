@@ -1,0 +1,38 @@
+.safety__rating {
+  background: #eeeeee;
+  padding: 1rem;
+  height: 270px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.safety__rating-heading {
+  font-size: 20px;
+  padding: 0px 0px 16px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.safety__rating-rating {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 8px;
+}
+
+.safety__rating-ratingLeft > h4 {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.safety__rating-ratingLeft > p {
+  font-size: 8px;
+  margin: 0;
+}
+
+.safety__rating-ratingRight > h4 {
+  margin: 0;
+}
